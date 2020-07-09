@@ -16,7 +16,7 @@
         var secondsLeft;
         var isFired = false;
         var settings = {
-            end: $.now()+12,
+            end: undefined,
             now: $.now(),
             labels: true,
             labelsOptions: {

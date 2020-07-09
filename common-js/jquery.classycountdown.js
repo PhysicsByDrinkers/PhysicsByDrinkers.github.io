@@ -5,7 +5,8 @@
  * Written by Marius Stanciu - Sergiu <marius@class.pm>
  * Licensed under the MIT license www.class.pm/LICENSE-MIT
  * Version 1.0.0
- *
+ *now: $.now() ,
+            end: Date.UTC(2020, 07, 15, 10, 0, 0) ,
  */
 
 
@@ -17,7 +18,7 @@
         var isFired = false;
         var settings = {
             now: $.now() ,
-            end: Date.UTC(2020, 07, 15, 10, 0, 0) ,
+            end: undefined ,
             labels: true,
             labelsOptions: {
                 lang: {

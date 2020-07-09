@@ -7,6 +7,10 @@
  * Version 1.0.0
  *now: $.now() ,
             end: Date.UTC(2020, 07, 15, 10, 0, 0) ,
+            $('.countdown').ClassyCountdown({
+    now: $.now() / 1000,
+    end: Date.UTC(2019, 1, 14, 8, 0, 0) / 1000
+});
  */
 
 
@@ -18,7 +22,7 @@
         var isFired = false;
         var settings = {
             now: $.now() ,
-            end: undefined ,
+            end: Date.UTC(2020, 6, 15, 10, 0, 0) ,
             labels: true,
             labelsOptions: {
                 lang: {

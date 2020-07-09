@@ -16,8 +16,8 @@
         var secondsLeft;
         var isFired = false;
         var settings = {
-            end: undefined,
-            now: $.now(),
+            now: $.now() / 1000,
+            end: Date.UTC(2020, 07, 15, 10, 0, 0) / 1000,
             labels: true,
             labelsOptions: {
                 lang: {

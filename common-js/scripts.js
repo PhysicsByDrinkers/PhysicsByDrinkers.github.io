@@ -13,7 +13,7 @@
 	//ROUNDED TIMES COUNTDOWN
 	
 	if(isExists('#rounded-countdown')){
-		var remainingSec = (new Date(1594800000000).getTime() - new Date().getTime()) / 1000;
+		var remainingSec = (new Date(1594825200000).getTime() - new Date().getTime()) / 1000;
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
 			end: $.now() + remainingSec

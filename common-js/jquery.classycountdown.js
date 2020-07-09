@@ -8,6 +8,7 @@
  *
  */
 
+
 (function($) {
     $.fn.ClassyCountdown = function(options, callback) {
         var element = $(this);
@@ -15,7 +16,7 @@
         var secondsLeft;
         var isFired = false;
         var settings = {
-            end: undefined,
+            end: $.now()+12,
             now: $.now(),
             labels: true,
             labelsOptions: {
